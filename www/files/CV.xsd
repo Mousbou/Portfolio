@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="CV">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Titre" type="xsd:string" />
+        <xsd:element name="image" type="xsd:string" />
+        <xsd:element name="Nom" type="xsd:string" />
+        <xsd:element name="Prenom" type="xsd:string" />
+        <xsd:element name="date_nais" type="xsd:string" />
+        <xsd:element name="Mobile" type="xsd:string" />
+        <xsd:element name="email" type="xsd:string" />
+        <xsd:element name="Diplomes">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="Diplome">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Location" type="xsd:string" />
+                    <xsd:element name="Pays" type="xsd:string" />
+                    <xsd:element name="date" type="xsd:string" />
+                    <xsd:element name="desc" type="xsd:string" />
+                  </xsd:sequence>
+                  <xsd:attribute name="ecole" type="xsd:string" />
+                  <xsd:attribute name="id" type="xsd:int" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Experiences">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="Experience">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="societe" type="xsd:string" />
+                    <xsd:element name="Date" type="xsd:string" />
+                    <xsd:element name="Desc" type="xsd:string" />
+                    <xsd:element name="Location" type="xsd:string" />
+                    <xsd:element name="Pays" type="xsd:string" />
+                  </xsd:sequence>
+                  <xsd:attribute name="id" type="xsd:int" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        
+        <xsd:element name="Competences">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="Competence">
+                <xsd:complexType>
+                <xsd:simpleContent>
+               		 <xsd:extension base="xsd:string">
+                  <xsd:attribute name="titre" type="xsd:string" />
+                  </xsd:extension>
+               	</xsd:simpleContent>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Langues">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="Langue">
+                <xsd:complexType>
+                 <xsd:simpleContent>
+               		 <xsd:extension base="xsd:string">
+                  <xsd:attribute name="niveau" type="xsd:int" />
+                  </xsd:extension>
+               	</xsd:simpleContent>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Divers">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="Diver" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

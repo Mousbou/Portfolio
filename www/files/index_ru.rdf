@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:ns0="doac:">
+
+  <foaf:Organization rdf:about="http://www.sup-galilee.univ-paris13.fr/">
+    <foaf:schoolHomepage rdf:resource="http://www.sup-galilee.univ-paris13.fr/"/>
+    <foaf:name>Sup'Galilée</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi">
+    <foaf:workplaceHomepage>
+      <rdf:Description rdf:about="http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi/">
+        <foaf:name>DC DIRISI</foaf:name>
+      </rdf:Description>
+    </foaf:workplaceHomepage>
+
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://www.defense.gouv.fr/">
+    <foaf:workplaceHomepage rdf:resource="http://www.defense.gouv.fr/"/>
+    <foaf:name>Министерства обороны</foaf:name>
+  </foaf:Organization>
+
+  <rdf:Description rdf:about="/images/fulls/xslt.gif">
+    <dc:image rdf:resource="/images/thumbs/xslt.gif"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="/images/fulls/graphviz.png">
+    <dc:image rdf:resource="/images/thumbs/graphviz.png"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="/images/fulls/rdfa.svg">
+    <dc:image rdf:resource="/images/thumbs/rdfa.svg"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="/images/fulls/triplet.jpg">
+    <dc:image rdf:resource="/images/thumbs/triplet.jpg"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="doac:Skill"/>
+    <ns0:drivingLicense>Лицензия B</ns0:drivingLicense>
+  </rdf:Description>
+
+  <ns0:Experience rdf:nodeID="genid3">
+    <ns0:date-starts>09/2015</ns0:date-starts>
+    <ns0:date-ends>09/2017</ns0:date-ends>
+    <ns0:title>развертывание Менеджер проекта WAN</ns0:title>
+    <ns0:location>DC DIRISI (Министерство обороны)</ns0:location>
+    <foaf:based_near>Le Kremlin-Bicêtre - 94</foaf:based_near>
+    <ns0:activity>
+                        
+                           Основная цель
+                           :  международной шкале сети
+                           Миссии
+                          Управление развитием развертывания инструмента мониторинга (MySQL + PHP / Symfony2), сетевой архитектуры, критик архитектуры наблюдение критика, участие в совещаниях Thales
+                        
+                   </ns0:activity>
+  </ns0:Experience>
+
+  <ns0:Education rdf:nodeID="genid4">
+    <ns0:date-starts>09/2014</ns0:date-starts>
+    <ns0:date-ends>09/2017</ns0:date-ends>
+    <ns0:title>Вычислительная техника и степень</ns0:title>
+    <ns0:organization>обучения сети в Париже 13 университета - Engineering Sup'Galilée</ns0:organization>
+    <foaf:based_near>Villetaneuse - 93</foaf:based_near>
+  </ns0:Education>
+
+  <ns0:Education rdf:nodeID="genid5">
+    <ns0:date-starts>09/2013</ns0:date-starts>
+    <ns0:date-ends>09/2014</ns0:date-ends>
+    <ns0:title></ns0:title>
+    <ns0:organization>наук в Университете Тулузы III Поля Сабатье</ns0:organization>
+    <foaf:based_near>Тулуза - 31</foaf:based_near>
+  </ns0:Education>
+
+  <ns0:Education rdf:nodeID="genid6">
+    <ns0:date-starts>09/2011</ns0:date-starts>
+    <ns0:date-ends>01/2013</ns0:date-ends>
+    <ns0:title>Получение ИУ сети и телекоммуникации</ns0:title>
+    <ns0:organization>Париже 13 Университет - ИТУ из Villetaneuse</ns0:organization>
+    <foaf:based_near>Villetaneuse - 93</foaf:based_near>
+  </ns0:Education>
+
+  <ns0:Education rdf:nodeID="genid7">
+    <ns0:date-starts>09/2008</ns0:date-starts>
+    <ns0:date-ends>07/2011</ns0:date-ends>
+    <ns0:title>Получение Baccalaureate промышленной науки и технологии</ns0:title>
+    <ns0:organization>для средней школы Применение Энна</ns0:organization>
+    <foaf:based_near>Сен-Дени - 93</foaf:based_near>
+  </ns0:Education>
+
+  <ns0:ComputerSkill rdf:nodeID="genid8">
+    <ns0:skill>C</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid9">
+    <ns0:skill>Python</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid10">
+    <ns0:skill>Perl</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid11">
+    <ns0:skill>HTML5</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid12">
+    <ns0:skill>CSS3</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid13">
+    <ns0:skill>PHP5</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid14">
+    <ns0:skill>JavaScript</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid15">
+    <ns0:skill>jQuery</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid16">
+    <ns0:skill>SQL 2/3</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid17">
+    <ns0:skill>PL/SQL</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid18">
+    <ns0:skill>MySQL</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid19">
+    <ns0:skill>PostgreSQL</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid20">
+    <ns0:skill>Oracle</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid21">
+    <ns0:skill>phpMyAdmin</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid22">
+    <ns0:skill>Java</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid23">
+    <ns0:skill>C++</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid24">
+    <ns0:skill>UML</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid25">
+    <ns0:skill>Windows</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid26">
+    <ns0:skill>Linux</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid27">
+    <ns0:skill>Eclipse</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid28">
+    <ns0:skill>Wireshark</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid29">
+    <ns0:skill>Visual Studio</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid30">
+    <ns0:skill>PERT</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid31">
+    <ns0:skill>Gantt</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid32">
+    <ns0:skill>Agile</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid33">
+    <ns0:skill>Cycle en V</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid34">
+    <ns0:skill>IPv4</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid35">
+    <ns0:skill>IPv6</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid36">
+    <ns0:skill>SIP</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid37">
+    <ns0:skill>Сервлеты</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid38">
+    <ns0:skill>VMware/VirtualBox</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid39">
+    <ns0:skill>XML</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid40">
+    <ns0:skill>DTD</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid41">
+    <ns0:skill>XML схемы (XSD)</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid42">
+    <ns0:skill>XSL (XPath, XSLT, XSL-FO)</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid43">
+    <ns0:skill>RDF</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid44">
+    <ns0:skill>RDF schema (RDFS)</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid45">
+    <ns0:skill>SPARQL</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid46">
+    <ns0:skill>RDFa</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid47">
+    <ns0:skill>Многоязычный Web</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:LanguageSkill rdf:nodeID="genid48">
+    <ns0:language>
+Французский язык (на двух языках)</ns0:language>
+  </ns0:LanguageSkill>
+
+  <ns0:LanguageSkill rdf:nodeID="genid49">
+    <ns0:language>
+Английский (операционный)</ns0:language>
+  </ns0:LanguageSkill>
+
+  <ns0:LanguageSkill rdf:nodeID="genid50">
+    <ns0:language>Немецкий (понятия)</ns0:language>
+  </ns0:LanguageSkill>
+
+</rdf:RDF>

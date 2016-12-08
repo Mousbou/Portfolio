@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ns0="doac:">
+
+  <foaf:Organization rdf:about="http://www.sup-galilee.univ-paris13.fr/">
+    <foaf:schoolHomepage rdf:resource="http://www.sup-galilee.univ-paris13.fr/"/>
+    <foaf:name>Sup'Galilée</foaf:name>
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi">
+    <foaf:workplaceHomepage>
+      <rdf:Description rdf:about="http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi/">
+        <foaf:name>DC DIRISI</foaf:name>
+      </rdf:Description>
+    </foaf:workplaceHomepage>
+
+  </foaf:Organization>
+
+  <foaf:Organization rdf:about="http://www.defense.gouv.fr/">
+    <foaf:workplaceHomepage rdf:resource="http://www.defense.gouv.fr/"/>
+    <foaf:name>Ministère de la Défense</foaf:name>
+  </foaf:Organization>
+
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="doac:Skill"/>
+    <ns0:drivingLicense>Permis B</ns0:drivingLicense>
+  </rdf:Description>
+
+  <ns0:Experience rdf:nodeID="genid3">
+    <ns0:date-starts>09/2015</ns0:date-starts>
+    <ns0:date-ends>09/2017</ns0:date-ends>
+    <ns0:title>Chef de projet déploiement WAN</ns0:title>
+    <ns0:location>DC DIRISI (Ministère de la Défense)</ns0:location>
+    <foaf:based_near>Le Kremlin-Bicêtre - 94</foaf:based_near>
+    <ns0:activity>
+                        
+                           Objectif principal
+                           : Suivre le déploiement d'un réseau d'ampleur national/international
+                           Missions effectuées
+                           : Pilotage du développement d'un outil de suivi du déploiement (MySQL + PHP/Symfony2)
+						    , Critique d'architectures réseau
+							, Critique d'architecture de supervision
+							, Participation aux réunions DGA/Thales
+                        
+                   </ns0:activity>
+  </ns0:Experience>
+
+  <ns0:Education rdf:nodeID="genid4">
+    <ns0:date-starts>09/2014</ns0:date-starts>
+    <ns0:date-ends>09/2017</ns0:date-ends>
+    <ns0:title>Diplôme d'ingénieur en informatique et réseaux en apprentissage</ns0:title>
+    <ns0:organization>Université Paris 13 Nord - Ingénieurs Sup'Galilée</ns0:organization>
+    <foaf:based_near>Villetaneuse - 93</foaf:based_near>
+  </ns0:Education>
+
+  <ns0:Education rdf:nodeID="genid5">
+    <ns0:date-starts>09/2013</ns0:date-starts>
+    <ns0:date-ends>09/2014</ns0:date-ends>
+    <ns0:title></ns0:title>
+    <ns0:organization>Université Toulouse III Paul Sabatier</ns0:organization>
+    <foaf:based_near>Toulouse - 31</foaf:based_near>
+  </ns0:Education>
+
+  <ns0:Education rdf:nodeID="genid6">
+    <ns0:date-starts>09/2011</ns0:date-starts>
+    <ns0:date-ends>01/2013</ns0:date-ends>
+    <ns0:title>DUT Réseaux et Télécommunications</ns0:title>
+    <ns0:organization>Université Paris 13 Nord - IUT de Villetaneuse</ns0:organization>
+    <foaf:based_near>Villetaneuse - 93</foaf:based_near>
+  </ns0:Education>
+
+  <ns0:Education rdf:nodeID="genid7">
+    <ns0:date-starts>09/2008</ns0:date-starts>
+    <ns0:date-ends>07/2011</ns0:date-ends>
+    <ns0:title>Baccalauréat Sciences et Technologies Industrielles</ns0:title>
+    <ns0:organization>Lycée d'Application de l'ENNA</ns0:organization>
+    <foaf:based_near>Saint-Denis - 93</foaf:based_near>
+  </ns0:Education>
+
+  <ns0:ComputerSkill rdf:nodeID="genid8">
+    <ns0:skill>C</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid9">
+    <ns0:skill>Python</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid10">
+    <ns0:skill>Perl</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid11">
+    <ns0:skill>HTML5</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid12">
+    <ns0:skill>CSS3</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid13">
+    <ns0:skill>PHP5</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid14">
+    <ns0:skill>JavaScript</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid15">
+    <ns0:skill>jQuery</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid16">
+    <ns0:skill>SQL 2/3</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid17">
+    <ns0:skill>PL/SQL</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid18">
+    <ns0:skill>MySQL</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid19">
+    <ns0:skill>PostgreSQL</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid20">
+    <ns0:skill>Oracle</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid21">
+    <ns0:skill>phpMyAdmin</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid22">
+    <ns0:skill>Java</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid23">
+    <ns0:skill>C++</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid24">
+    <ns0:skill>UML</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid25">
+    <ns0:skill>Windows</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid26">
+    <ns0:skill>Linux</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid27">
+    <ns0:skill>Eclipse</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid28">
+    <ns0:skill>Wireshark</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid29">
+    <ns0:skill>Visual Studio</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid30">
+    <ns0:skill>PERT</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid31">
+    <ns0:skill>Gantt</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid32">
+    <ns0:skill>Agile</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid33">
+    <ns0:skill>Cycle en V</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid34">
+    <ns0:skill>IPv4</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid35">
+    <ns0:skill>IPv6</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid36">
+    <ns0:skill>SIP</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid37">
+    <ns0:skill>Servlets</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid38">
+    <ns0:skill>VMware/VirtualBox</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid39">
+    <ns0:skill>XML</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid40">
+    <ns0:skill>DTD</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid41">
+    <ns0:skill>XML schema (XSD)</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid42">
+    <ns0:skill>XSL (XPath, XSLT, XSL-FO)</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid43">
+    <ns0:skill>RDF</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid44">
+    <ns0:skill>RDF schema (RDFS)</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid45">
+    <ns0:skill>SPARQL</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid46">
+    <ns0:skill>RDFa</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:ComputerSkill rdf:nodeID="genid47">
+    <ns0:skill>Web multilingue</ns0:skill>
+  </ns0:ComputerSkill>
+
+  <ns0:LanguageSkill rdf:nodeID="genid48">
+    <ns0:language>Français (bilingue)</ns0:language>
+  </ns0:LanguageSkill>
+
+  <ns0:LanguageSkill rdf:nodeID="genid49">
+    <ns0:language>Anglais (operationnel)</ns0:language>
+  </ns0:LanguageSkill>
+
+  <ns0:LanguageSkill rdf:nodeID="genid50">
+    <ns0:language>Allemand (notions)</ns0:language>
+  </ns0:LanguageSkill>
+
+</rdf:RDF>

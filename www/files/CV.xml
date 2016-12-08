@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CV.xsl"?>
+<CV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CV.xsd">
+	<Titre>Chef de projet déploiement réseaux</Titre>
+	<image>avatar.jpg</image>
+	<Nom>BOUDJRAF</Nom>
+	<Prenom>Mostapha</Prenom>
+	<date_nais>19-10-1993</date_nais>
+	<Mobile>+33659454228</Mobile>
+	<email>mostapha.boudjraf@gmail.com</email>
+	<Diplomes>
+		<Diplome ecole="Sup Galilee" id="1">
+			<Location>Villetaneuse</Location>
+			<Pays>France</Pays>
+			<date>2014-2017</date>
+			<desc>Diplôme d'ingénieur informatique et réseaux</desc>
+		</Diplome>
+		<Diplome ecole="Université Paul Sabatier" id="2">
+			<Location>Toulouse</Location>
+			<Pays>France</Pays>
+			<date>2013-2014</date>
+			<desc>Licence Informatique</desc>
+		</Diplome>
+		<Diplome ecole="IUT Villetaneuse" id="3">
+			<Location>Villetaneuse</Location>
+			<Pays>France</Pays>
+			<date>2011-2013</date>
+			<desc>DUT Réseaux et Télécommunications</desc>
+		</Diplome>
+	</Diplomes>
+	<Experiences>
+		<Experience id="1">
+			<societe>DC DIRISI</societe>
+			<Date>2015-2017</Date>
+			<Desc>Chef de projet déploiement réseaux</Desc>
+			<Location>Le Kremlin-Bicêtre</Location>
+			<Pays>France</Pays>
+		</Experience>
+		<Experience id="2">
+			<societe>LAGA</societe>
+			<Date>2013</Date>
+			<Desc>Développeur PHP - SPIP</Desc>
+			<Location>Villetaneuse</Location>
+			<Pays>France</Pays>
+		</Experience>
+	</Experiences>
+
+	
+	<Competences>
+		<Competence titre="Système d&#8217;exploitation">Windows, Linux.</Competence>
+		<Competence titre="Outils de programmation ">Eclipse, Visual Studio</Competence>
+		<Competence titre=" Langages de programmation ">C, C++, C#, Java, SQL, PL-SQL, PHP, JavaScript, XML, VBA</Competence>
+	</Competences>
+	<Langues>
+		<Langue niveau="5">Français</Langue>
+		<Langue niveau="3"> Anglais </Langue>
+	</Langues>
+	<Divers>
+		<Diver>Permis B</Diver>
+		<Diver>Musique</Diver>
+		<Diver>Sport</Diver>
+	</Divers>
+</CV>

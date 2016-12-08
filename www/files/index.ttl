@@ -1,0 +1,160 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix doac: <http://ramonantonio.net/doac/0.1/#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://purl.org/vocab/aiiso/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+<http://boudjraf.fr/> a doac:ComputerSkill,
+        doac:LanguageSkill,
+        doac:Skill;
+    dc:description """
+			 """@fr,
+        """Je m'appelle <span lang="fr" property="foaf:firstName" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Mostapha</span> <span lang="fr" property="foaf:lastName" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">BOUDJRAF</span> et je suis âgé de <span lang="fr" property="foaf:age" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">23</span> ans. Actuellement, j'effectue une formation en <span lang="fr" property="aiiso:teaches" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">informatique et réseaux en apprentissage</span> à l'école d'ingénieurs <a about="http://www.sup-galilee.univ-paris13.fr/" href="http://www.sup-galilee.univ-paris13.fr/" lang="fr" rel="foaf:schoolHomepage" typeof="foaf:Organization" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"><span property="foaf:name">Sup'Galilée</span></a> à <span lang="fr" property="foaf:based_near" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Villetaneuse</span>.
+            <br lang="fr" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+            Je suis en contrat d'apprentissage au sein de la <a about="http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi" href="http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi/" lang="fr" rel="foaf:workplaceHomepage" typeof="foaf:Organization" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"><span property="foaf:name">DC DIRISI</span></a>, opérateur des télécommunications du <a about="http://www.defense.gouv.fr/" href="http://www.defense.gouv.fr/" lang="fr" rel="foaf:workplaceHomepage" typeof="foaf:Organization" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"><span property="foaf:name">Ministère de la Défense</span></a>, en tant que chef de projet.
+            <br lang="fr" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+
+
+            <br lang="fr" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>"""^^rdf:XMLLiteral;
+    dc:format "text/html; charset=UTF-8"@fr;
+    dc:language "<a href=\"http://boudjraf.fr/\" lang=\"fr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:aiiso=\"http://purl.org/vocab/aiiso/schema\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:doac=\"http://ramonantonio.net/doac/0.1/#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"><img alt=\"Portfolio Francais\" src=\"images/fr.png\"/></a>"^^rdf:XMLLiteral,
+        "<a href=\"http://boudjraf.fr/en\" lang=\"fr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:aiiso=\"http://purl.org/vocab/aiiso/schema\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:doac=\"http://ramonantonio.net/doac/0.1/#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"><img alt=\"Portfolio Anglais\" src=\"images/uk.png\"/></a>"^^rdf:XMLLiteral,
+        "<a href=\"http://boudjraf.fr/ru\" lang=\"fr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:aiiso=\"http://purl.org/vocab/aiiso/schema\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:doac=\"http://ramonantonio.net/doac/0.1/#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"><img alt=\"Portfolio Russe\" src=\"images/ru.png\"/></a>"^^rdf:XMLLiteral,
+        "fr"@fr;
+    dc:subject " Web Sémantique "@fr,
+        "Centres d'intérêt / Hobbies"@fr,
+        "Compétences informatiques"@fr,
+        "Expériences professionnelles"@fr,
+        "Formations pédagogiques"@fr,
+        "Informations et coordonnées "@fr,
+        "Langues assimilées"@fr;
+    dc:title "<a href=\"#cv\" lang=\"fr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:aiiso=\"http://purl.org/vocab/aiiso/schema\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:doac=\"http://ramonantonio.net/doac/0.1/#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"> CV </a>"^^rdf:XMLLiteral,
+        "<a href=\"#websem\" lang=\"fr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:aiiso=\"http://purl.org/vocab/aiiso/schema\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:doac=\"http://ramonantonio.net/doac/0.1/#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"> Web sémantique </a>"^^rdf:XMLLiteral,
+        "Mostapha BOUDJRAF | Portfolio"@fr;
+    ns1:schemateaches "informatique et réseaux en apprentissage"@fr;
+    doac:drivingLicense "Permis B"@fr;
+    doac:language "Allemand (notions)"@fr,
+        "Anglais (operationnel)"@fr,
+        "Français (bilingue)"@fr;
+    doac:skill "Agile"@fr,
+        "C"@fr,
+        "C++"@fr,
+        "CSS3"@fr,
+        "Cycle en V"@fr,
+        "DTD"@fr,
+        "Eclipse"@fr,
+        "Gantt"@fr,
+        "HTML5"@fr,
+        "IPv4"@fr,
+        "IPv6"@fr,
+        "Java"@fr,
+        "JavaScript"@fr,
+        "Linux"@fr,
+        "MySQL"@fr,
+        "Oracle"@fr,
+        "PERT"@fr,
+        "PHP5"@fr,
+        "PL/SQL"@fr,
+        "Perl"@fr,
+        "PostgreSQL"@fr,
+        "Python"@fr,
+        "RDF"@fr,
+        "RDF schema (RDFS)"@fr,
+        "RDFa"@fr,
+        "SIP"@fr,
+        "SPARQL"@fr,
+        "SQL 2/3"@fr,
+        "Servlets"@fr,
+        "UML"@fr,
+        "VMware/VirtualBox"@fr,
+        "Visual Studio"@fr,
+        "Web multilingue"@fr,
+        "Windows"@fr,
+        "Wireshark"@fr,
+        "XML"@fr,
+        "XML schema (XSD)"@fr,
+        "XSL (XPath, XSLT, XSL-FO)"@fr,
+        "jQuery"@fr,
+        "phpMyAdmin"@fr;
+    xhv:alternate <http://boudjraf.fr/Portfolio/mostapha_boudjraf/en/>,
+        <http://boudjraf.fr/Portfolio/mostapha_boudjraf/ru/>,
+        <http://boudjraf.fr/index.html>;
+    xhv:stylesheet <http://boudjraf.fr/../css/style.css>,
+        <http://boudjraf.fr/assets/css/main.css>;
+    foaf:age "23"@fr;
+    foaf:based_near "Villetaneuse"@fr;
+    foaf:birthday "19/10/1993"@fr;
+    foaf:firstName "Mostapha"@fr;
+    foaf:lastName "BOUDJRAF"@fr;
+    foaf:mbox <mailto:mostapha.boudjraf@gmail.com>;
+    foaf:phone <tel:+33659454228>;
+    foaf:title "M."@fr;
+    foaf:topic_interest "Cinéma,"@fr,
+        "Culture japonaise,"@fr,
+        "Football,"@fr,
+        "Lecture,"@fr,
+        "Montage photo/vidéo"@fr,
+        "Musculation,"@fr,
+        "Musique,"@fr,
+        "Running"@fr .
+
+<http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi> a foaf:Organization;
+    foaf:workplaceHomepage <http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi/> .
+
+<http://www.defense.gouv.fr/> a foaf:Organization;
+    foaf:name "Ministère de la Défense"@fr;
+    foaf:workplaceHomepage <http://www.defense.gouv.fr/> .
+
+<http://www.defense.gouv.fr/ema/interarmees/direction-interarmees-des-reseaux-d-infrastructure-des-systemes-d-information-de-la-defense/dirisi/> foaf:name "DC DIRISI"@fr .
+
+<http://www.sup-galilee.univ-paris13.fr/> a foaf:Organization;
+    foaf:name "Sup'Galilée"@fr;
+    foaf:schoolHomepage <http://www.sup-galilee.univ-paris13.fr/> .
+
+[] a doac:Education;
+    doac:education [ doac:date-ends "09/2014"@fr;
+            doac:date-starts "09/2013"@fr;
+            doac:organization "Université Toulouse III Paul Sabatier"@fr;
+            doac:title ""@fr;
+            foaf:based_near "Toulouse - 31"@fr ] .
+
+[] a doac:Education;
+    doac:education [ doac:date-ends "07/2011"@fr;
+            doac:date-starts "09/2008"@fr;
+            doac:organization "Lycée d'Application de l'ENNA"@fr;
+            doac:title "Baccalauréat Sciences et Technologies Industrielles"@fr;
+            foaf:based_near "Saint-Denis - 93"@fr ] .
+
+[] a doac:Education;
+    doac:education [ doac:date-ends "09/2017"@fr;
+            doac:date-starts "09/2014"@fr;
+            doac:organization "Université Paris 13 Nord - Ingénieurs Sup'Galilée"@fr;
+            doac:title "Diplôme d'ingénieur en informatique et réseaux en apprentissage"@fr;
+            foaf:based_near "Villetaneuse - 93"@fr ] .
+
+[] a doac:Education;
+    doac:education [ doac:date-ends "01/2013"@fr;
+            doac:date-starts "09/2011"@fr;
+            doac:organization "Université Paris 13 Nord - IUT de Villetaneuse"@fr;
+            doac:title "DUT Réseaux et Télécommunications"@fr;
+            foaf:based_near "Villetaneuse - 93"@fr ] .
+
+[] a doac:Experience;
+    doac:experience [ doac:activity """
+                        <p lang="fr" xmlns="http://www.w3.org/1999/xhtml" xmlns:aiiso="http://purl.org/vocab/aiiso/schema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doac="http://ramonantonio.net/doac/0.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+                           <span class="texteGras">Objectif principal</span>
+                           : Suivre le déploiement d'un réseau d'ampleur national/international
+                           <br/>
+                           <span class="texteGras">Missions effectuées</span>
+                           : Pilotage du développement d'un outil de suivi du déploiement (MySQL + PHP/Symfony2)
+						    , Critique d'architectures réseau
+							, Critique d'architecture de supervision
+							, Participation aux réunions DGA/Thales
+                        </p>
+                   """^^rdf:XMLLiteral;
+            doac:date-ends "09/2017"@fr;
+            doac:date-starts "09/2015"@fr;
+            doac:location "DC DIRISI (Ministère de la Défense)"@fr;
+            doac:title "Chef de projet déploiement WAN"@fr;
+            foaf:based_near "Le Kremlin-Bicêtre - 94"@fr ] .
