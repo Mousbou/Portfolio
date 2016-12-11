@@ -1,15 +1,10 @@
 Pour rappel, l'URL de mon portfolio est la suivante : http://boudjraf.fr.
 De plus, voici le répertoire github de mon projet :
 
-Plan
-Introduction
-Réflexions et réalisations
-Bilan
-Introduction
+
 
 Dans le cadre du cours de Web Sémantique, nous avons été amené à réaliser un Portfolio qui devait, à minima, contenir notre CV et une page sur le Web Sémantique.
 Dans ce wiki, je vais tâché d'expliquer quels ont été mes choix, mes difficultés et quels ont été les apports de cet exercice.
-Réflexions et réalisations
 
 Pour réaliser ce portfolio, je me suis grandement appuyé sur les cours de Web Sémantique : la réflexion avant la réalisation a été une étape critique car il fallait choisir quelles seraient les technologies qui seraient implémentées dans mon portfolio.
 
@@ -24,7 +19,6 @@ Pour voir à quoi ressemblent les informations sémantiques extraites, j'ai util
 Par ailleurs, je me suis aussi aidé du LOD() afin de trouver le vocabulaire me permettant de donner un sens sémantique aux informations présentes.
 
 Pour finir, mon portfolio est en multilingue : en français, en russe et en anglais. En fonction des préférences établies par l'utilisateur - via les options du navigateur - le fichier php "index.php" redirigera sur le bon répertoire contenant la version dans la langue locale de l'utilisateur.
-Bilan
 
 En résumé, grâce à la réalisation de ce portfolio, j'ai pu mieux comprendre comment le fonctionnement des différentes couches du Web Sémantique.
 J'ai aussi pu améliorer mes compétences - qui n'étaient pas exceptionnelles - en langages Web (HTML,CSS).
